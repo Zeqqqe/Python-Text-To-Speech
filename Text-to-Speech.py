@@ -189,7 +189,7 @@ if __name__ == "__main__":
     while True:
         try:
             print("\n╔═══════════════════════════════╗")
-            print("║   Universal TTS Script Menu   ║")
+            print("║   zeqqe's Text-to-Speech CLI  ║")
             print("╠═══════════════════════════════╣")
             print("║ 1. eSpeak (Fast & Robotic)    ║")
             print("║ 2. Piper TTS (Realistic)      ║")
