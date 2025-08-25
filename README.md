@@ -1,35 +1,43 @@
-**(This entire project was made with Ai)**
+# zeqqe's Text-to-Speech CLI
 
-# Python Text-To-Speech
+> An interactive command-line tool for text-to-speech (TTS) synthesis using both eSpeak and Piper TTS engines.
 
-## Features:
-**Customizable Speech Rate:** Adjust the speaking rate.
+---
 
-**Selectable Voice:** Choose from available voices. (SAIP5)
+## Features
 
-**Volume Control:** Set the speech volume. (0-1).
+* **Dual Engine Support:** Switch seamlessly between the fast, robotic **eSpeak** engine and the realistic, neural **Piper TTS** engine.
+* **Interactive CLI:** An easy-to-use command-line interface for controlling all features.
+* **Advanced Speech Customization (eSpeak):** Adjust rate, pitch, amplitude, word gap, and select from various voice variants.
+* **High-Quality Speech Synthesis (Piper):** Leverages a modern neural network model for natural, human-like speech.
+* **Play & Save Functionality:** Speak text directly and simultaneously save the output to a timestamped `.wav` file with a single command.
 
-**Reverse Sentence:** Speak the input sentence in reverse.
+## Dependencies & Setup
 
-**Reset Settings:** Easily revert all settings to their default values.
+This script is designed to run in a **Linux or WSL (Windows Subsystem for Linux)** environment.
 
-## Dependencies:
-**`pyttsx3`:** How to install, run this code in Command Prompt
-```batch
-pip install pyttsx3
+### 1. System Dependencies
+
+Required for the speech engines and audio playback. Open your terminal and run the appropriate command:
+
+* **For Fedora/CentOS:**
+    ```bash
+    sudo dnf install espeak-ng alsa-utils alsa-plugins-pulseaudio
+    ```
+* **For Debian/Ubuntu:**
+    ```bash
+    sudo apt-get install espeak-ng alsa-utils alsa-plugins-pulseaudio
+    ```
+
+### Python Install Tutorial:
+[![Python Install Tutorial](https://i.ytimg.com/vi/ddGTXBhaGWA/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBHgfdcWE4URTwe-kzMvYQ_gcqAYw)](https://www.youtube.com/watch?v=ddGTXBhaGWA)
+
+
+### 2. Python & Libraries
+
+Ensure you have Python 3.8+ installed, then install the required libraries:
+
+```bash
+pip install pyttsx3 piper-tts
 ```
-**[Python:](https://www.python.org/ftp/python/3.13.4/python-3.13.5-amd64.exe)** How to install, download Python from **[python.org](https://www.python.org)** 
-### Python Download Tutorial:
-[![Python Tutorial](https://i.ytimg.com/vi/ddGTXBhaGWA/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBHgfdcWE4URTwe-kzMvYQ_gcqAYw)](https://www.youtube.com/watch?v=ddGTXBhaGWA)
-
-## Commands:
-
-| Command | Description |
-| :--- | :--- |
-| **`/.rti`** | Used to reverse the input text being read. |
-| **`/.rate <n>`** | Used to change the speech rate. |
-| **`/.voice <voice-name>`** | Used to change the voice to a valid SAIP5 voice on your system. |
-| **`/.volume`** | Used to change the volume (0-1). |
-| **`/.reset`** | Used to reset the parameters back to their default values. |
-| **`/.help`** | Used to view all commands. |
-
+###### (This entire project was made with AI)
