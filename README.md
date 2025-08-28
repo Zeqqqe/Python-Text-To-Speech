@@ -1,5 +1,4 @@
-# zeqqe's Text-to-Speech CLI
-
+# Python-Text-To-Speech
 > An interactive command-line tool for text-to-speech (TTS) synthesis using both eSpeak and Piper TTS engines.
 
 ---
