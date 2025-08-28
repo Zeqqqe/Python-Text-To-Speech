@@ -17,16 +17,13 @@
 > ###### Dependencies
 > (This script is designed to run in a **Linux or WSL (Windows Subsystem for Linux)** environment.)
 >
-> Required for the speech engines and audio playback. Open your terminal and run the appropriate command:
+> Required for the speech engines. Open your terminal and run the appropriate command:
 > 
 > * **For Fedora/CentOS:**
-    ```
-sudo dnf install espeak-ng alsa-utils alsa-plugins-pulseaudio
-    ```
+`sudo dnf install espeak-ng`
+>
 > * **For Debian/Ubuntu:**
-    ```
-sudo apt-get install espeak-ng alsa-utils alsa-plugins-pulseaudio
-    ```
+`sudo apt-get install espeak-ng`
 >
 > ###### Python Libraries
 > `pip install pyttsx3 piper-tts`
