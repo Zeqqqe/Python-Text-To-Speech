@@ -29,7 +29,7 @@
 >
 >
 <details>
->  <summary>Python Install Tutorial</summary>
+  <summary>Python Install Tutorial</summary>
 
 > ### [Python Installation Guide](https://www.youtube.com/watch?v=ddGTXBhaGWA)
 > #### [@Amit.Thinks](https://www.youtube.com/@Amit.Thinks)
@@ -207,6 +207,6 @@
 <details>
   <summary>Misc Info</summary>
 
-![Star History Chart](https://api.star-history.com/svg?repos=Zwarb&type=Date)
+![Star History Chart](https://api.star-history.com/svg?repos=Zwarb/Python-Text-To-Speech&type=Date)
 
 ###### This project was made with AI.
