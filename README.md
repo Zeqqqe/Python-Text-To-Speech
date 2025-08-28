@@ -40,4 +40,10 @@ Ensure you have Python 3.8+ installed, then install the required libraries:
 ```bash
 pip install pyttsx3 piper-tts
 ```
-###### (This entire project was made with AI)
+
+<details>
+  <summary>Misc Info</summary>
+
+![Star History Chart](https://api.star-history.com/svg?repos=Zwarb&type=Date)
+
+###### This project was made with AI.
